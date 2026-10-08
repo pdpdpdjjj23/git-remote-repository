@@ -3,4 +3,4 @@ token:
   secret: this is a default secret from config service - modified
 
 gateway:
-  ip: 192.168.0.100 # 테스트용 임의값
+  ip: 11.168.0.100 # 테스트용 임의값
