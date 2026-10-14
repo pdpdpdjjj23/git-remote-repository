@@ -7,4 +7,5 @@ spring:
     password: '{cipher}AQBem7ko3+8BiflluMW0aiBNStx9QqB/LQNNdbTGmR7GB5Rqk+9hgyFLJo5TTLxl0QeJKbtU6GlX4qF4lj8VQL9eecB4kFVxE0XGgzsexephPrIhSWkvm0sAYxRfcfZx5wvDMH0e2bCCgBBG4jY55cm1X1lvzB415/zI3Js1opySQ1TIyYaxcgNFXFQaBNUR+qD2hEIo1/8621YMLQ4GOZn3p6RudAO0nL4pWRCRt9lMSZd12rMr1MukNEX3isPf+7G+9R+UGhTO9OIyx7FwpxOa3yXW226ZBJn0p33xtUCNPe0tjGxt8K8QDaeTzoX6tGz1LA09wCLr0NMNiO5KoutZcbBACd99nP2gxUBsia4kG9exThX3Erg4UWyGyi3Rzx0='
 
 order-service:
-  url: http://localhost:8000/order-service/%s/orders
+  #url: http://localhost:8000/order-service/%s/orders
+  url: http://order-service/order-service/%s/orders
