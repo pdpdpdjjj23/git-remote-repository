@@ -9,3 +9,5 @@ spring:
 order-service:
   #url: http://localhost:8000/order-service/%s/orders
   url: http://order-service/order-service/%s/orders
+  exception:
+    order-is-empty: "Order is empty"
